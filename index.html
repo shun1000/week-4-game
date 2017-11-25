@@ -1,0 +1,50 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Crystal Collector</title>
+		<link rel="stylesheet" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+<body>
+	<div class="container">
+			<div class="jumbotron">
+				<h1>Crystal Collector !</h1>
+			<h4><p>You will be given a random number at the start of the game.</p>
+			<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+			<p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p> 
+			<p>The value of each crystal is hidden from you until you click on it.</p>
+			<p>Each time when the game starts, the game will change the values of the crystal.</p>
+			</h4>
+		</div>
+		<!-- random number div/losses-->
+
+	<!-- Gems Div -->
+
+	<div class="row">
+		<img src="assets/images/green.png" class=gem id="one" alt="green Gem">
+		<img src="assets/images/blue.png" class=gem id="two" alt="blue Gem">
+		<img src="assets/images/red.png" class=gem id= "three" alt="red Gem">
+		<img src="assets/images/purple.png" class=gem id= "four" alt="purple Gem">
+				</div>
+			</div>
+			<div class="panel panel-default" id= "panelStyle">
+				<div class= "panel-body">
+					<h4 id = "firstbox">Number to match: <span id= "number"></span></h4>
+					<h4 id = "secondbox">Your number: <span id="Combined"></span></h4>
+				</div>
+			</div>
+			<div class="panel panel-default" id= "panelStyle">
+				<div class= "panel-body">
+					<h4>
+					Wins: <span id= "numberWins"></span>
+					<br>
+					Losses: <span id= "numberLosses"></span>
+					</h4>
+				</div>
+			</div>
+		</div>
+	<!--Javascript-->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+	</body>
+	</html>

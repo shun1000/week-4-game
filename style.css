@@ -1,0 +1,37 @@
+   body {
+   		background-image: url("./assets/images/background2.jpg");
+   		width: 100%;
+   		background-size: cover;
+   		-webkit-background-size:cover;
+   		-moz-background-size:cover;
+   		-o-background-size:cover;
+   	}
+   	h1 {color:black;
+   		background-image: url("./assets/images/background4.jpg");
+
+   	}
+  .container { 
+			  background-image:url("./assets/images/background3.jpg");
+  			  width:30%;
+  			  color:white; 
+  			  text-align: center}
+  .row {
+  			margin-bottom:10px;}
+
+  .randomNumberDiv {
+  	background-color: brown;
+  	width: 30%;
+  	text-align: center;
+  		; 
+  }
+  .panel-body{
+  	background-image: url("./assets/images/background4.jpg");
+  	width:30%;
+  	text-align: center;
+
+.gemImage{
+	height: 60px;
+	margin: 10px;
+
+}
+/* IDs */
